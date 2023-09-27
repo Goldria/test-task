@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />    
+    <link href="img/icons/favicon.png" rel="icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Тестовое задание</title>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="img/me.jpg" alt="Фотография" />
+        <div class="shadow"></div>
+      </div>
+      <div class="name-text">
+        <h1>Гольденберг Дарья</h1>
+        <div class="text-block gallery_item">
+            <p>
+                Мне 19 лет, на данный момент учусь в Южно-Уральском Государственном
+                Университете на
+              <span id="right_dots">. . .</span>
+              <span id="right_moreText"
+                >третьем курсе "Программной инженерии"</span
+              >
+            </p>
+            <button onclick="readMore('right')" id="right_button">
+              Показать больше
+            </button>
+          </div>    
+        </p>
+      </div>
+      <div class="links" style="align-self: flex-start">
+        <div class="social">
+          <p>Мои соц. сети:</p>
+        </div>
+        <div class="icons">
+          <a href="https://github.com/goldria">
+            <img src="img/icons/github.svg" alt="Иконка 1"
+          /></a>
+          <a href="https://t.me/goldria">
+            <img src="img/icons/telegram.svg" alt="Иконка 2" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="dogs">
+    <div class="section-title" style="margin-bottom: -5%">
+        <span>Прочее</span>
+        <h2>Прочее</h2>
+    </div>
+      <p>А ещё я очень люблю собак, настолько, что у меня их трое :)</p>
+      <div class="gallery-wrap">
+        <img src="img/buttons/left.png" id="backBtn" />
+        <div class="gallery">
+          <div>
+            <span><img src="img/dogs/img_09.jpg" alt="Image 1" /></span>
+            <span><img src="img/dogs/img_02.jpg" alt="Image 2" /></span>
+            <span><img src="img/dogs/img_03.jpg" alt="Image 3" /></span>
+          </div>
+
+          <div>
+            <span><img src="img/dogs/img_04.jpg" alt="Image 4" /></span>
+            <span><img src="img/dogs/img_05.jpg" alt="Image 5" /></span>
+            <span><img src="img/dogs/img_07.jpg" alt="Image 6" /></span>
+          </div>
+
+          <div>
+            <span><img src="img/dogs/img_06.jpg" alt="Image 7" /></span>
+            <span><img src="img/dogs/img_08.jpg" alt="Image 8" /></span>
+            <span><img src="img/dogs/img_01.jpg" alt="Image 9" /></span>
+          </div>
+        </div>
+        <img src="img/buttons/right.png" id="nextBtn" />
+      </div>
+    </div>
+  </body>
+
+  <script src="js/script.js" defer></script>
+</html>
